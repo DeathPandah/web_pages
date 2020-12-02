@@ -1,0 +1,37 @@
+@keyframes kf-intro-svg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* INTRO  */
+.intro-svg {
+  animation-name: kf-intro-svg;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: running;
+}
+.intro-title:hover {
+  color: #dc3545;
+}
+/* SECTION  */
+.box-hover:hover {
+  color: #fd7e14;
+}
+
+.img-monster-top {
+  display: none;
+}
+.box-6:hover .img-monster {
+  display: none;
+}
+.box-6:hover .img-monster-top {
+  display: initial;
+}
+/* FOOTER  */
+.about:hover {
+  color: #984c0c;
+}
